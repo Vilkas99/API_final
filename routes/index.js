@@ -6,7 +6,7 @@ const router = Router();
 
 router.get('/', (req, res) => res.send("Bienvenido"));
 
-router.post('/users', controladores.createUser);
-router.get('/users', controladores.getAllUsers);
+router.post('/usuarios', controladores.createUser);
+router.get('/usuarios', controladores.getAllUsers);
 
 module.exports = router;
