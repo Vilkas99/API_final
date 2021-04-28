@@ -5,7 +5,7 @@ RUN apt-get update
 # install curl g++
 RUN apt-get install -y curl make g++
 # download nodejs
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
 RUN apt-get install -y nodejs
 # add package.json
 ADD package.json /package.json
